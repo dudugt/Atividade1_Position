@@ -74,14 +74,18 @@ section.como-ajudamos {
 section .como-ajudamos-flex {
     display: flex;
     justify-content: space-between;
+    /* border:solid 2px green; */
+
+    /* Position Relative Apliacdo Para ser referencia para o Position Absolute */
+    position: relative;
 }
 
 section .ajuda-box {
     width: 35%;
     /* border: solid 3px red; */
 
-    /* Position Relative Apliacdo Para ser referencia para o Position Absolute */
-    position: relative;
+    
+   
 }
 
 section .ajuda-box h2 {
@@ -100,8 +104,8 @@ section .ajuda-box p {
 section .conhecimento-profundo {
     /* Aplicação do Position  */
     position: absolute;
-    right: 240px ; 
-    bottom: 50px;
+    top: -80px; 
+    right: 0;
 
     display: flex;
     flex-direction: column;
